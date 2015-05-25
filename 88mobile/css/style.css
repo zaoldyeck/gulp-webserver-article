@@ -1,0 +1,339 @@
+/*網頁歸零*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+:focus {
+    outline: 0;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    background-image: url("../img/questionaire_bg.jpg");
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+}
+.clear{
+    clear:both;
+}
+.contain{
+    width: 320px;
+    position:relative;
+    margin:0 auto;
+}
+.stage{
+    position: relative;
+    width: 320px;
+    margin:0 auto;
+    background-image: url("../img/stage.png");
+    background-size:cover;
+    margin-top:230px;
+
+}
+.stagebg{
+    position: relative;
+    width: 320px;
+    margin:30px auto 0px auto;
+    background-image: url("../img/footer_bg.png");
+    background-size:cover;
+}
+.title1 {
+    text-align:center;
+    margin-top: 30px;
+}
+.title1 h1{
+    font-weight: 100;
+    color:#ffffff;
+    font-size:2em;
+    letter-spacing: 0.05em;
+    text-shadow:0px 0px 5px #4f029b;
+}
+.gift-name{
+    font-weight: 500;
+    color:#ffffff;
+    font-size:1.5em;
+}
+.title2{
+    text-align:center;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-top:10px;
+    padding:0 10px;
+}
+.select{
+    position:relative;
+    top:45px;
+    margin:0 auto;
+    width: 200px;
+    height:32px;
+    background-image: url("../img/select.png");
+    background-size:cover;
+}
+.gift{
+    position:absolute;
+    top:-220px;
+    height:300px;
+    width: 320px;
+    text-align:center;
+}
+.gift img{
+    height:250px;
+}
+.join{
+    width: 250px;
+    margin:0 auto;
+    cursor:pointer;
+    margin-top:100px;
+}
+.join img{
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    margin-top:20px;
+}
+.footer span{
+    margin:4px;
+    color:#ffffff;
+    font-size: 1.1em;
+}
+.info{
+    width: 280px;
+    padding:20px;
+}
+.info-text{
+    font-size: 0.8em;
+    color:#e6e6e6;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.3em;
+}
+.dot{
+    width: 16px;
+    height:16px;
+    margin:10px;
+    background-color: #cc66ff;
+    -moz-border-radius-topleft: 75px;
+-moz-border-radius-topright:75px;
+-moz-border-radius-bottomleft:75px;
+-moz-border-radius-bottomright:75px;
+-webkit-border-top-left-radius:75px;
+-webkit-border-top-right-radius:75px;
+-webkit-border-bottom-left-radius:75px;
+-webkit-border-bottom-right-radius:75px;
+border-top-left-radius:75px;
+border-top-right-radius:75px;
+border-bottom-left-radius:75px;
+border-bottom-right-radius:75px;
+}
+#dot1{
+    position: absolute;
+    top:0px;
+    left:83px;
+    opacity: 1;
+}
+#dot2{
+    position: absolute;
+    top:0px;
+    left:117px;
+    opacity: 0;
+}
+#dot3{
+    position: absolute;
+    top:0px;
+    left:150px;
+    opacity: 0;
+}
+.question{
+    font-size: 1.6em;
+    color:#191919;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.answer{
+    color:#ffffff;
+}
+.question-box{
+    width: 300px;
+    padding:0 10px 0 10px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 20px;
+}
+.table1{
+    width:300px;   
+    margin:20px auto 0px auto; 
+    padding:0px 10px 0px 10px;
+
+}
+.form-group input{
+    width:97%;
+    height:30px;
+    margin-bottom: 20px;
+    border:none;
+    padding-left:2%;
+    margin-top: 5px;
+    font-size: 1em;
+}
+.form-group select{
+    width:100%;
+    height:30px;
+    margin-bottom: 20px;
+    border:none;
+    margin-top: 5px;
+    font-size: 1em;
+    background-color: #ffffff;
+    border:none;
+}
+.form-group label{
+    font-size: 1.2em;
+}
+.float{
+    float:left;
+}
+.checkinfo{
+    width: 275px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+#next-step{
+    width: 280px;
+    margin:20px auto 0px auto;
+}
+#next-step img{
+    width: 100%;
+}
+.table2{
+    display: none;
+     width:300px;   
+    margin:20px auto 0px auto; 
+    padding:0px 10px 0px 10px;
+}
+.congra{
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    font-size: 1.2em;
+    color:#191919;
+    padding-bottom: 20px;
+    margin-top:20px;
+}
+.address-zone{
+    margin-top:20px;
+}
+#birthday input{
+    width: 70px;
+    float:left;
+}
+.sendbtn{
+    width: 280px;
+}
+.sendbtn img{
+    width: 100%;
+}
+#sendbtn{
+    margin-top: 20px;
+    background-color: transparent;
+    border:none;
+}
+.whitebox{
+    width: 300px;
+    background-color: rgba(255,255,255,0.8);
+    margin:20px auto;
+    -moz-border-radius-topleft: 5px;
+-moz-border-radius-topright:5px;
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-webkit-border-top-left-radius:5px;
+-webkit-border-top-right-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+padding:10px;
+
+}
+.question-title{
+    width: 280px;
+    background-color: #333333;
+    margin:0 auto;
+    color:#ffffff;
+    padding:5px;
+}
+.ex-answer ul li{
+    margin:5px 0px;
+}
+.qa-box{
+    margin-bottom: 20px;
+}
+.text-box{
+    padding:10px;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+.text-box ol li{
+    font-weight: 900;
+    color:#000000;
+}
+.anouce-box{
+    border-bottom:1px solid #999999;
+    padding-bottom:20px;
+    margin-top: 20px;
+}
+.anouce-name{
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.anouce-time{
+    font-size: 0.8em;
+    color:#666666;
+}
+.paticipant{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color:#4c4c4c;
+}
